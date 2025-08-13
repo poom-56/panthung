@@ -1,6 +1,6 @@
 from tkinter import *
 root = Tk()
-root.title("kuiyai")
+root.title("roti")
 
 def Showmessage():
     Label(text = "ชื่อ ภูมิฉัตร ปานทุ่ง" , fg="purple",font="60",bg="white").pack()
@@ -10,4 +10,5 @@ def Showmessage():
 btnl = Button(root,text="information",comand=Showmessage).pack()
 
 root.geometry("750x500")
+
 root.mainloop()
